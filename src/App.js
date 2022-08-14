@@ -1,12 +1,14 @@
 import React from "react";
 
-const App = () => {
+// import Resturant from "./components/basics/Resturant";
+import Todo from "./components/todoreact/Todo";
+
+function App() {
   return (
-    <>
-      <h1 className="myClass">Hello world</h1>
-      <p>Awesome</p>
-    </>
+    <div className="main-div">
+      <Todo />
+    </div>
   );
-};
+}
 
 export default App;
